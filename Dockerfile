@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 #Which "official Java image" ?
-FROM FROM openjdk:oraclelinux8 as build
+FROM openjdk:oraclelinux8
 #working directory
 WORKDIR /app
 #copy from your Host(PC, laptop) to container
